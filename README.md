@@ -12,7 +12,7 @@ These values gets stored on the device in a config file at `/data/xochitle.conf`
 
 This allows you to change the sleep screen by injecting limited HTML of your choice. For example, you can load a remote image to display on the device.  
 
-This script will replace the contents of `/data/xochitl.conf` fields `IdleContact` and `IdleName` (if uncommented in the script),with the `-f` file you specify when running. I've included a basic HTML file for test. 
+This script will replace the contents of `/data/xochitl.conf` fields `IdleContact` and `IdleName` (if uncommented in the script), with the `-f` file you specify when running. I've included a basic HTML file for test. 
 
 To run, clone the repo and chmod+x the python script, then:
 
@@ -20,11 +20,13 @@ To run, clone the repo and chmod+x the python script, then:
 ./reMarkableSleepScreenEditor.py -i {reMarkableIPAddress} -f {htmlFile}
 ```
 
-Or to rest the conf file fields to blank:
+Or to reset the conf file fields to blank:
 
 ```
 ./reMarkableSleepScreenEditor.py -i {reMarkableIPAddress} --reset
 
 ```
 
-See the blog post [https://pizzapower.org]([pizzapower.org](https://www.pizzapower.me/2025/02/06/remarkable-paper-pro-html-injection/)). 
+My default config file is also included for when you mess it up. 
+
+See the blog post [https://pizzapower.org](https://www.pizzapower.me/2025/02/06/remarkable-paper-pro-html-injection/). 
