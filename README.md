@@ -14,7 +14,7 @@ This allows you to change the sleep screen by injecting limited HTML of your cho
 
 This script will replace the contents of `/data/xochitl.conf` fields `IdleContact` and `IdleName` (if uncommented in the script), with the `-f` file you specify when running. I've included a basic HTML file for test. 
 
-To run, clone the repo and chmod+x the python script, then:
+To run, enable dev mode on your device, turn on the view personal details setting in `settings > security > Personal Information`, clone the repo and chmod+x the python script, then:
 
 ```
 ./reMarkableSleepScreenEditor.py -i {reMarkableIPAddress} -f {htmlFile}
