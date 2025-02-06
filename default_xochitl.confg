@@ -1,0 +1,8 @@
+[General]
+IdleContact=hello
+IdleDetailsVisible=true
+IdleName=world
+Setup=false
+
+[Lights]
+brightness=100
